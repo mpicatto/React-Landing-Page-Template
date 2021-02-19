@@ -8,20 +8,14 @@ export class Header extends Component {
           <div className="overlay">
             <div className="container">
               <div className="row">
-                <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
+                <div className="intro-text">
+                  <h2 >
                     {this.props.data ? this.props.data.title : "Loading"}
                     <span></span>
-                  </h1>
-                  <p>
+                  </h2>
+                  <h3>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
-                  </p>
-                  <a
-                    href="#features"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Learn More
-                  </a>{" "}
+                  </h3> 
                 </div>
               </div>
             </div>
